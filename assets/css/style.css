@@ -1,14 +1,6 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-
 /**
- * copyright 2022 @codewithsadee
+ * copyright 2025 @proffernandotfernandes
  */
-
-
-
 
 
 /*-----------------------------------*\
@@ -110,10 +102,6 @@
   --transition-2: 0.5s ease-in-out;
 
 }
-
-
-
-
 
 /*-----------------------------------*\
   #RESET
@@ -1866,6 +1854,10 @@ textarea.form-input::-webkit-resizer { display: none; }
   .contact-info :is(.contact-link, time, address) {
     --fs-7: 14px;
     font-weight: var(--fw-300);
+  }
+
+  .contact-info :is(.name) {
+    --fs-7: 14px;
   }
 
   .separator:last-of-type {
